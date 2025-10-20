@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding-top: calc(env(safe-area-inset-top, 0px) + 16px);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+    margin: 0;
+    padding-top: 8px;
+    line-height: 1.2;
+}
+
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+}
